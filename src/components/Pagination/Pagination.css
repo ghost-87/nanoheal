@@ -1,0 +1,54 @@
+.Pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.Pagination-item {
+    background-color: #0084cc;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+.Pagination-item[disabled],
+.Pagination-item[disabled]:hover {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}
+
+.Pagination-item:hover {
+    background-color: #114798;
+}
+
+.Pagination-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Pagination-error {
+    flex: 1;
+    background-color: #E6738B;
+}
+
+.Pagination-loading {
+    flex: 1;
+    background-color: #0084cc;
+}
+
+.Pagination-loading,
+.Pagination-error {
+    flex: 1;
+    padding: 10px;
+}
